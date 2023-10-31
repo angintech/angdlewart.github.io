@@ -91,13 +91,73 @@ h1 {
     text-align: center;
 }
 
-footer {
-    height: 25%;
+#footer {
+    height: 90%;
     background-color: deeppink;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+#instagramicon {
+    width: 40px;
+    padding: 70px 40px;
+}
+
+#connect {
+    height: auto;
+    font-family: "Galada";
+    font-size: x-large;
+
+    padding: 50px 0;
+}
+
+#contact-order,
+#copyright {
+    height: auto;
+    font-family: "Poppins";
+    font-size: large;
+    padding: 60px 0;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-box {
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
 
 }
 
-.sm_icon {
-    width: 50px;
-    /* the height is adjusted automatically*/
+.form-box input {
+    font-size: 18px;
+    color: #000;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: #ececec;
+}
+
+.form-box button {
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-family: "Poppins";
+    border: none;
+    border-radius: 5px;
+    background: #4D4DDB;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.form-box button:hover {
+    background: black;
+
 }
