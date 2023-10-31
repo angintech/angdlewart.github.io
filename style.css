@@ -56,6 +56,29 @@ li a {
     font-weight: 500;
 }
 
+/*gallerycode*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/*gallerycode*/
 img {
     border-radius: 8px;
     display: block;
@@ -92,42 +115,22 @@ h1 {
     text-align: center;
 }
 
-#footer {
-    height: 90%;
-    background-color: deeppink;
-    display: flex;
-    padding: 0;
+#join {
+    font-family: "Poppins";
+    text-align: center;
+    font-size: 22px;
+    padding: 100px 300px 0px 300px;
     margin: 0;
-    font-family: "Poppins";
-    box-sizing: border-box;
-}
+    color: #4D4DDB;
 
-#instagramicon {
-    width: 40px;
-    padding: 70px 40px;
-}
-
-#connect {
-    height: auto;
-    font-family: "Galada";
-    font-size: x-large;
-
-    padding: 50px 0;
-}
-
-#contact-order,
-#copyright {
-    height: auto;
-    font-family: "Poppins";
-    font-size: large;
-    padding: 60px 0;
 }
 
 .box {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 50vh;
+    padding: 0;
 }
 
 .form-box {
@@ -161,4 +164,34 @@ h1 {
 .form-box button:hover {
     background: black;
 
+}
+
+#footer {
+    height: 90%;
+    background-color: deeppink;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+#instagramicon {
+    width: 40px;
+    padding: 70px 40px;
+}
+
+#connect {
+    height: auto;
+    font-family: "Galada";
+    font-size: x-large;
+    padding: 50px 0;
+}
+
+#contact-order,
+#copyright {
+    height: auto;
+    font-family: "Poppins";
+    font-size: large;
+    padding: 60px 0;
 }
