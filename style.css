@@ -60,7 +60,7 @@ li a {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 20px 4px;
 }
 
 /* Create four equal columns that sits next to each other */
