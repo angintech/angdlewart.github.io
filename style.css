@@ -61,7 +61,7 @@ li a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0 4px;
+    /* padding: 0 4px; */
 }
 
 /* Create four equal columns that sits next to each other */
@@ -79,8 +79,8 @@ li a {
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
     .column {
-        flex: 50%;
-        max-width: 50%;
+        flex: calc(50% - 8px);
+        max-width: calc(50% - 8px);
     }
 }
 
